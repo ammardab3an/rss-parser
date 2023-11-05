@@ -102,9 +102,9 @@ function App() {
             <th>Title</th>
             <th>Division</th>
             <th>Country</th>
-            <th>Location</th>
-            <th>lat</th>
-            <th>lng</th>
+            <th className='d-none d-sm-table-cell'>Location</th>
+            <th className='d-none d-md-table-cell'>lng</th>
+            <th className='d-none d-md-table-cell'>lat</th>
           </tr>
         </thead>
 
@@ -125,9 +125,9 @@ function App() {
                   </td>
                   <td>{e.division}</td>
                   <td>{e.country}</td>
-                  <td>{location_city}</td>
-                  <td>{location_center[0]}</td>
-                  <td>{location_center[1]}</td>
+                  <td className='d-none d-sm-table-cell'>{location_city}</td>
+                  <td className='d-none d-md-table-cell'>{location_center[0]}</td>
+                  <td className='d-none d-md-table-cell'>{location_center[1]}</td>
                 </tr>
               )
             })
