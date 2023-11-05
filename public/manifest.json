@@ -1,6 +1,6 @@
 {
-  "short_name": "Udemy",
-  "name": "Udemy",
+  "short_name": "rss-parser",
+  "name": "rss-parser",
   "icons": [
     {
       "src": "favicon.ico",
