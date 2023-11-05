@@ -23,7 +23,7 @@ function Map({jobsPositions}) {
   const position = [0, 0]
 
   return (
-    <MapContainer className='map' center={position} zoom={1} scrollWheelZoom={false}>
+    <MapContainer className='map' center={position} zoom={1} scrollWheelZoom={true}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
